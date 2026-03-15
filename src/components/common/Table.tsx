@@ -23,6 +23,21 @@ const getPriorityDetails = (priority?: TaskPriority) => {
   }
 };
 
+const getStatusClasses = (status: TaskStatus) => {
+  switch (status) {
+    case "new":
+      return "bg-blue-50 text-blue-900 border-blue-200 font-medium";
+    case "in-progress":
+      return "bg-yellow-50 text-yellow-900 border-yellow-200 font-medium";
+    case "blocked":
+      return "bg-red-50 text-red-900 border-red-200 font-medium";
+    case "done":
+      return "bg-green-50 text-green-900 border-green-200 font-medium";
+    default:
+      return "bg-gray-50 text-gray-900 font-medium";
+  }
+};
+
 const TableRow = ({
   task,
   onUpdateStatus,
@@ -50,6 +65,7 @@ const TableRow = ({
           value={task.status}
           onChange={(val) => onUpdateStatus(task.id, val as TaskStatus)}
           options={statusOptions?.filter((status) => status.value !== "all")}
+          className={getStatusClasses(task.status)}
         />
       </td>
       <td className="py-4 px-6 text-sm text-gray-700 max-w-[80px]">
