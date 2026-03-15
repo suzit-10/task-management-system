@@ -1,0 +1,84 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Design the user interface for the dashboard",
+      "description": "Create wireframe and mockups for the task management dashboard.",
+      "status": "done",
+      "assignee": "Alice",
+      "dueDate": "2024-07-15"
+    },
+    {
+      "id": 2,
+      "title": "Implement the backend API",
+      "description": "Develop RESTful endpoints for task management operations.",
+      "status": "new",
+      "assignee": "Bob",
+      "dueDate": "2024-07-20"
+    },
+    {
+      "id": 3,
+      "title": "Set up the database schema",
+      "description": "Design and create the database schema for storing tasks and user information.",
+      "status": "blocked",
+      "assignee": "Charlie",
+      "dueDate": "2024-07-18"
+    },
+    {
+      "id": 4,
+      "title": "Write unit tests for the API",
+      "description": "Create unit tests to ensure the API endpoints work as expected.",
+      "status": "new",
+      "assignee": "Dave",
+      "dueDate": "2024-07-22"
+    },
+    {
+      "id": 5,
+      "title": "Integrate frontend with backend",
+      "description": "Connect the React frontend with the backend API to enable task management functionality.",
+      "status": "in-progress",
+      "assignee": "Eve",
+      "dueDate": "2024-07-25"
+    },
+    {
+      "id": 6,
+      "title": "Conduct user testing",
+      "description": "Gather feedback from users to identify any usability issues and improve the dashboard.",
+      "status": "new",
+      "assignee": "Frank",
+      "dueDate": "2024-07-30"
+    },
+    {
+      "id": 7,
+      "title": "Deploy the application",
+      "description": "Set up hosting and deploy the task management dashboard for public access.",
+      "status": "new",
+      "assignee": "Grace",
+      "dueDate": "2024-08-05"
+    },
+    {
+      "id": 8,
+      "title": "Create documentation",
+      "description": "Write comprehensive documentation for the application, including setup instructions and API usage.",
+      "status": "new",
+      "assignee": "Heidi",
+      "dueDate": "2024-08-10"
+    },
+    {
+      "id": 9,
+      "title": "Implement authentication",
+      "description": "Add user authentication to secure access to the dashboard.",
+      "status": "blocked",
+      "assignee": "Ivan",
+      "dueDate": "2024-08-15"
+    },
+    {
+      "id": 10,
+      "title": "Optimize performance",
+      "description": "Identify and fix performance bottlenecks in the application.",
+      "status": "new",
+      "assignee": "Judy",
+      "dueDate": "2024-08-20"
+    }
+  ]
+}
