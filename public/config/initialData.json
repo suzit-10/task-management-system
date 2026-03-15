@@ -6,6 +6,7 @@
       "description": "Create wireframe and mockups for the task management dashboard.",
       "status": "done",
       "assignee": "Alice",
+      "priority": "high",
       "dueDate": "2024-07-15"
     },
     {
@@ -14,6 +15,7 @@
       "description": "Develop RESTful endpoints for task management operations.",
       "status": "new",
       "assignee": "Bob",
+      "priority": "high",
       "dueDate": "2024-07-20"
     },
     {
@@ -22,6 +24,7 @@
       "description": "Design and create the database schema for storing tasks and user information.",
       "status": "blocked",
       "assignee": "Charlie",
+      "priority": "high",
       "dueDate": "2024-07-18"
     },
     {
@@ -30,6 +33,7 @@
       "description": "Create unit tests to ensure the API endpoints work as expected.",
       "status": "new",
       "assignee": "Dave",
+      "priority": "low",
       "dueDate": "2024-07-22"
     },
     {
@@ -38,6 +42,7 @@
       "description": "Connect the React frontend with the backend API to enable task management functionality.",
       "status": "in-progress",
       "assignee": "Eve",
+      "priority": "medium",
       "dueDate": "2024-07-25"
     },
     {
@@ -46,6 +51,7 @@
       "description": "Gather feedback from users to identify any usability issues and improve the dashboard.",
       "status": "new",
       "assignee": "Frank",
+      "priority": "medium",
       "dueDate": "2024-07-30"
     },
     {
@@ -54,6 +60,7 @@
       "description": "Set up hosting and deploy the task management dashboard for public access.",
       "status": "new",
       "assignee": "Grace",
+      "priority": "medium",
       "dueDate": "2024-08-05"
     },
     {
@@ -62,6 +69,7 @@
       "description": "Write comprehensive documentation for the application, including setup instructions and API usage.",
       "status": "new",
       "assignee": "Heidi",
+      "priority": "medium",
       "dueDate": "2024-08-10"
     },
     {
@@ -70,6 +78,7 @@
       "description": "Add user authentication to secure access to the dashboard.",
       "status": "blocked",
       "assignee": "Ivan",
+      "priority": "medium",
       "dueDate": "2024-08-15"
     },
     {
@@ -78,6 +87,7 @@
       "description": "Identify and fix performance bottlenecks in the application.",
       "status": "new",
       "assignee": "Judy",
+      "priority": "medium",
       "dueDate": "2024-08-20"
     }
   ]
