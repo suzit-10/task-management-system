@@ -1,6 +1,6 @@
 # Task Management Dashboard
 
-A modern, responsive Task Management Dashboard built with React, TypeScript, and Vite. This application allows users to view, filter, sort, and manage tasks with a clean and intuitive user interface.
+This is Task Management Dashboard built with React, TypeScript, and Vite. This application allows users to view, filter, sort, and manage tasks with a clean and intuitive user interface.
 
 ## 🚀 Features
 
@@ -10,7 +10,7 @@ A modern, responsive Task Management Dashboard built with React, TypeScript, and
 - **Responsive Design**: Built with modern CSS/Tailwind utility classes for a seamless experience on all devices.
 - **Form Validation**: Comprehensive front-end form validation (checking due dates, character lengths, and valid assignees).
 - **Persistent Storage**: Uses local storage as a mock backend to persist user tasks between sessions, simulating real-world data fetching workflows.
-- **Status & Priority Indicators**: Visual cues (colors, badges) for overdue tasks, priorities, and custom status.
+- **Status & Priority Indicators**: Visual cues for overdue tasks, priorities, and custom status.
 
 ## 🛠️ Tech Stack
 
@@ -26,7 +26,7 @@ The architecture follows a modular approach separating concerns into logical dom
 
 1. **State Management (`hooks/`)**: 
    - `useTasks`: Encapsulates all interactions with the local persistence layer and state updates.
-   - `useTaskFilters`: Isolates the complex filtering, sorting, and search state from the main UI logic.
+   - `useTaskFilters`: Isolates the filtering and sorting state from the main UI logic.
    - `useModal`: A reusable toggle pattern for modal interfaces.
 2. **Presentational Components (`components/`)**:
    - `Table`: Responsible only for rendering the data matrix and emitting actions.
@@ -64,8 +64,8 @@ If this project were to be scaled further, the following additions would be prio
 
 ### Installation
 ```bash
-git clone <repository-url>
-cd task-management-dashboard
+git clone <git@github.com:suzit-10/task-management-system.git>
+cd task-management-system
 npm install
 npm run dev
 ```
