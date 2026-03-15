@@ -91,7 +91,7 @@ const App = () => {
       updateTask({ ...editingTask, ...formData });
       toast.success("Task updated successfully");
     } else {
-      addTask({ ...formData, description: "" });
+      addTask({ ...formData, description: "" }); // Add default description to "" for new tasks as it has no assignee field in the form and no not displayed in the table
       toast.success("New task created");
     }
     close();
