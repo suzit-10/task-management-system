@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Table from "./components/common/Table";
 import SummarySection from "./components/SummarySection/SummarySection";
 import ControllerSection from "./components/ControllerSection/Controller";
@@ -37,7 +37,10 @@ const App = () => {
     setSortBy,
   } = useTaskFilters();
 
-  // Delete Confirmation State
+  const filteredAndSortedTasks = useMemo(
+    () => filterAndSortTasks(tasks, filterStatus, filterAssignees, sortBy),
+    [tasks, filterStatus, filterAssignees, sortBy],
+  );
 
   if (loading) {
     return <div className="w-full p-4 text-center">Loading tasks...</div>;
@@ -111,7 +114,7 @@ const App = () => {
         assigneeOptions={getAssigneeOptions(tasks)}
       />
       <Table
-        tasks={filterAndSortTasks(tasks, filterStatus, filterAssignees, sortBy)}
+        tasks={filteredAndSortedTasks}
         onUpdateStatus={handleUpdateStatus}
         onDelete={handleDeleteClick}
         onEdit={handleEditClick}
