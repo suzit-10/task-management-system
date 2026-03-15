@@ -19,25 +19,25 @@ const SummarySection = ({ tasks = [] }: SummarySectionProps) => {
         title="New Tasks"
         icon="fiber_new"
         count={newTasks}
-        iconBgColor="green"
+        summaryCardClassName="bg-green-200"
       />
       <SummaryCard
         title="In Progress"
         icon="pending_actions"
         count={inProgressTasks}
-        iconBgColor="yellow"
+        summaryCardClassName="bg-yellow-200"
       />
       <SummaryCard
         title="Blocked Tasks"
         icon="block"
         count={blockedTasks}
-        iconBgColor="red"
+        summaryCardClassName="bg-red-200"
       />
       <SummaryCard
         title="Done Tasks"
         icon="check_circle"
         count={doneTasks}
-        iconBgColor="green"
+        summaryCardClassName="bg-green-200"
       />
     </div>
   );
